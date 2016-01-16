@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="javascriptDOM.js"></script>
+  <link rel="stylesheet" type="text/css" href="javascriptDOM.css">
+  
+</head>
+<body>
+	<h1 id="HI">The key you pressed is</h1>
+	<form id="myForm" method="POST" action="...">
+	<p>
+		Date: <input id="field_username" title="Enter date MM/DD/YEAR" type="text" required pattern="\d{1,2}/\d{1,2}/\d{4}" name="date">
+	</p>
+	<p>
+		Username: <input id="field_username" title="Enter Username" type="text" required pattern="\w+" name="username">
+	</p>
+	<p>
+		Password: <input id="field_pwd1" title="Enter Password" type="password" required pattern="\w+" name="passWord">
+	</p>
+	<p>
+		<input type="submit" value="Login" >
+	</p>
+	</form>
+</body>
+</html>
